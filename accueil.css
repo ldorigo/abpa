@@ -1,154 +1,156 @@
 .all {
-   margin-top: 8vh;
-   margin-bottom: 10vh;
-    background-color:rgb(62,101,50);
-   width: 100vw;
-   max-width:1200px;
-   padding: 0;
- }
- 
- h1 a {
-   color: white;
- }
-h1 a:hover{
-  color:white!important;
+    margin-top: 8vh;
+    margin-bottom: 10vh;
+    background-color: rgb(62, 101, 50);
+    width: 100vw;
+    max-width: 1200px;
+    padding: 0;
 }
- 
- h1 {
-   text-shadow: 4px 4px black;
-   position: absolute;
-   left: 30px;
-   bottom: 20px;
-   font-size:large;
- }
- 
- .jumbotron {
-   position: relative;
-   background-image: url("http://www.ebppa.be/wp-content/uploads/2014/12/slider_1PICS.jpg?i=58344");
-   background-size: cover;
-   border-radius: 0!important;
-   margin: 0!important;
-   /*padding:25px!important;*/
-   height: 60vh;
-   max-height: 450px;
-   text-align: left;
- }
- 
- body {
-   background-color: rgb(51,51,51);
- }
- 
- .new {
-   background-color: #dd6d25;
-   padding-top: 20px;
-   margin-bottom: 5px;
-   box-shadow: 3px 6px black;
- }
- 
- .new:hover {
-   background-color: rgb(255, 150, 20);
- }
- 
- .navbar {
-   background-color: #dd6d25;
-   border-radius: 0!important;
-   box-shadow: 3px 6px black;
-   margin: -10px;
-   border:0!important;
- }
 
-.nav{
-    margin:0!important;
+h1 a {
+    color: white;
 }
-.navbar li a{
-  text-transform:uppercase;
-  color:white!important;
+
+h1 a:hover {
+    color: white !important;
 }
+
+h1 {
+    text-shadow: 4px 4px black;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    font-size: large;
+}
+
+.jumbotron {
+    position: relative;
+    background-image: url("http://www.ebppa.be/wp-content/uploads/2014/12/slider_1PICS.jpg?i=58344");
+    background-size: cover;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    /*padding:25px!important;*/
+    height: 60vh;
+    max-height: 450px;
+    text-align: left;
+}
+
+body {
+    background-color: rgb(51, 51, 51);
+}
+
+.new {
+    background-color: #dd6d25;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    box-shadow: 3px 6px black;
+}
+
+.new:hover {
+    background-color: rgb(255, 150, 20);
+}
+
+.navbar {
+    background-color: #dd6d25;
+    border-radius: 0 !important;
+    box-shadow: 3px 6px black;
+    margin: -10px;
+    border: 0 !important;
+}
+
+.nav {
+    margin: 0 !important;
+}
+
+.navbar li a {
+    text-transform: uppercase;
+    color: white !important;
+}
+
 .navbar .navbar-brand {
-  text-transform:uppercase;
-  color:white!important;
-  font-weight:bold;
+    text-transform: uppercase;
+    color: white !important;
+    font-weight: bold;
 }
 
-.navbar li:hover{
-       background-color: rgb(255, 150, 20);
+.navbar li:hover {
+    background-color: rgb(255, 150, 20);
 }
- p {
-   color: white;
- }
- 
- .row1 {
-   margin-top: 35px;
-   margin-right: 0;
-   margin-left: 0;
- }
- 
- .left {
-   background-color: rgba(225, 225, 225, 0.1);
-   padding: 20px;
-   margin: 0!important;
-   padding-top: 40px;
-   border-right: 1px dotted white;
- }
- 
- .left:hover {
-   background-color: rgba(225, 225, 225, 0.4)
- }
- 
- .right {
-   background-color: rgba(225, 225, 225, 0.1);
-   padding: 20px;
-   padding-top: 40px;
- }
- 
- .right:hover {
-   background-color: rgba(225, 225, 225, 0.4)
- }
- 
- .row2 {
-   padding-top: 45px;
-   border-top: 1px dotted white;
-   padding-bottom: 40px;
-   background-color: rgba(225, 225, 225, 0.1);
-   margin-bottom: 10vh;
-   margin-right: 0;
-   margin-left: 0;
- }
- 
- .row2:hover {
-   background-color: rgba(225, 225, 225, 0.4)
- }
 
+p {
+    color: white;
+}
+
+.row1 {
+    margin-top: 35px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.left {
+    background-color: rgba(225, 225, 225, 0.1);
+    padding: 20px;
+    margin: 0 !important;
+    padding-top: 40px;
+    border-right: 1px dotted white;
+}
+
+.left:hover {
+    background-color: rgba(225, 225, 225, 0.4)
+}
+
+.right {
+    background-color: rgba(225, 225, 225, 0.1);
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.right:hover {
+    background-color: rgba(225, 225, 225, 0.4)
+}
+
+.row2 {
+    padding-top: 45px;
+    border-top: 1px dotted white;
+    padding-bottom: 40px;
+    background-color: rgba(225, 225, 225, 0.1);
+    margin-bottom: 10vh;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.row2:hover {
+    background-color: rgba(225, 225, 225, 0.4)
+}
 
 ul {
-    
-}
-
-.dropdown-menu li a:hover{
-       background-color: rgb(255, 150, 20)!important;
 
 }
+
+.dropdown-menu li a:hover {
+    background-color: rgb(255, 150, 20) !important;
+
+}
+
 .dropdown-menu {
     background-color: #dd6d25;
-    padding:0;
-    border-radius:0;
+    padding: 0;
+    border-radius: 0;
 }
 
-
-
 .dropdown-menu li {
-    margin: 0!important;
+    margin: 0 !important;
 }
 
 .dropdown-menu li a {
-padding: 10pt;
-    
+    padding: 10pt;
+
 }
 
 .divider {
-    background-color:darkorange!important;
+    background-color: darkorange !important;
 }
 
 .navbar-brand:hover {
-    background-color: rgb(255, 150, 20)!important;
+    background-color: rgb(255, 150, 20) !important;
 }
