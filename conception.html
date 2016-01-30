@@ -13,6 +13,19 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>$(document).ready(function () {
+
+        $('ul.tabs li').click(function () {
+            var tab_id = $(this).attr('data-tab');
+
+            $('ul.tabs li').removeClass('current');
+            $('.tab-content').removeClass('current');
+
+            $(this).addClass('current');
+            $("#" + tab_id).addClass('current');
+        })
+
+    })</script>
 </head>
 
 
@@ -20,7 +33,7 @@
 <div class="container all">
     <div class="jumbotron">
 
-        <h1>Qui sommes-nous?</h1>
+        <h1>Conception de la pratique</h1>
 
     </div>
 
@@ -87,8 +100,123 @@
     <div class="content">
 
         <h2>Qui sommes-nous?</h2>
-        <p>ezrzerzerzerzerzer</p>
+        <div class="container">
 
+            <ul class="tabs">
+                <li class="tab-link current" data-tab="tab-1">Les Principes de base</li>
+                <li class="tab-link" data-tab="tab-2">La pratique éducative</li>
+                <li class="tab-link" data-tab="tab-3">Le groupe d'aide</li>
+                <li class="tab-link" data-tab="tab-4">Thérapie</li>
+            </ul>
+
+            <div id="tab-1" class="tab-content current">
+                <p>La Pratique Psychomotrice Aucouturier vise au développement psychique de l’enfant par la voie
+                    corporelle. Elle fait référence à une conception unitaire de la personne, le psychisme étant
+                    indissociable de ses racines corporelles. Cette pratique est une invitation à comprendre ce
+                    qu’exprime l’enfant de son monde interne, par la voie de la motricité; elle est une invitation à
+                    saisir le sens de ses actions et interactions. </p>
+                <p>Dans cette pratique, nous travaillons à partir du plaisir sensori-moteur comme facteur favorisant
+                    l’unité corporelle, le processus de symbolisation et l’accès à la représentation. La pratique vise à
+                    favoriser l’expression de toutes les potentialités motrices, affectives, cognitives et
+                    relationnelles de l’enfant. L’expressivité motrice, concept créé par Bernard Aucouturier, est la
+                    manière originale avec laquelle l’enfant manifeste ses contenus internes inconscients, issus des
+                    premières interactions avec le monde environnant. C’est en observant l’enfant qui agit que le
+                    psychomotricien découvre et comprend le sens de son expressivité motrice, son désir de s’attacher,
+                    de se séparer, d'être soi.</p>
+                <p>Le spécialiste de la pratique est préparé à observer, accueillir, accompagner, comprendre
+                    l’expressivité motrice afin d’apporter à l’enfant des réponses adaptées à ses besoins, à ses
+                    demandes, à ses désirs plus ou moins conscients.</p>
+                <p>La salle de Pratique Psychomotrice est un espace étudié pour que l’enfant puisse vivre un itinéraire
+                    de maturation psychologique, au cours duquel le psychomotricien accueille les productions et les
+                    émotions de l’enfant, contient ses excès et ses difficultés, maintient le cadre en favorisant
+                    toujours l’expression et la communication.
+                    Ces principes se retrouvent dans la Pratique Psychomotrice éducative comme dans la Pratique
+                    Psychomotrice thérapeutique.</p>
+            </div>
+            <div id="tab-2" class="tab-content">
+                <p>Elle s’adresse à tous les enfants de 0 à 6/7 ans et les séances se vivent en groupe à la crèche, à
+                    l’école maternelle, dans les lieux d’accueil de la petite enfance et dans les centres de Pratique
+                    Psychomotrice Aucouturier. La Pratique Psychomotrice éducative et préventive est une pratique
+                    d’accompagnement de l’expressivité motrice. Elle est conçue comme un itinéraire de maturation
+                    psychologique favorisant le passage du « plaisir d’agir au plaisir de penser ».</p>
+                <p>Les objectifs de cette pratique peuvent se résumer par les termes :
+                    communication, création, décentration. L’accès à la décentration se caractérise par un moindre
+                    envahissement émotionnel des objets et des autres. L’enfant rompt progressivement avec la
+                    subjectivité pour accéder à une forme de pensée moins lestée d’affect, il s’ouvre ainsi à la pensée
+                    opératoire.</p>
+                <p> La pratique éducative nécessite un espace approprié et le psychomotricien est le garant d’un cadre
+                    très contenant et permanent. Des espaces et des temps structurent la séance de manière à favoriser
+                    le développement de la fonction symbolique et des processus de réassurance face aux angoisses. </p>
+                <p>Rappelons que l’enfant ne joue pas pour apprendre mais apprend parce qu’il joue. L’espace sera donc
+                    suffisamment riche, stimulant et souple pour qu’il puisse y pratiquer, à son rythme, ses propres
+                    jeux. Le jeu réconcilie l’enfant avec lui-même et avec les autres car il stimule une rencontre et
+                    des échanges authentiques.
+                    La Pratique Psychomotrice éducative a une valeur préventive des troubles du développement, elle est
+                    un préalable essentiel pour entrer dans le monde des apprentissages. </p>
+            </div>
+            <div id="tab-3" class="tab-content">
+                <p>Nous avons constaté que certains enfants ne pouvaient bénéficier pleinement de la pratique éducative
+                    à cause de leurs comportements excessifs, répétitifs, immatures. Nous proposons à ces enfants des
+                    groupes d’aide quand les difficultés sont essentiellement révélées par l’école.</p>
+                <p>Les problèmes de symbolisation, de communication, de décentration, du respect de la loi sont souvent
+                    à l’origine de la demande d’aide car ces enfants ne s’intègrent pas dans le groupe classe. Ils
+                    restent centrés sur leurs propres affects et se réfugient souvent dans une pensée magique pour se
+                    protéger d’un monde extérieur hostile, voir dangereux à leurs yeux.</p>
+                <p>Le groupe d’aide est composé de 3 à 6 enfants émotionnellement fragiles dont l’âge se situe entre 4
+                    et 7 ans. Dans ces groupes d’aide, nous ne travaillons pas directement sur le symptôme mais sur la
+                    recherche du plaisir qui fait défaut à l’enfant et limite grandement l’investissement des activités
+                    scolaires.</p>
+
+                <p>Ce travail se situe soit dans l’institution scolaire soit dans des lieux privés mais nécessite
+                    toujours la collaboration des parents et de l’école de manière à créer un faisceau d’aide autour de
+                    l’enfant.
+                </p>
+
+
+                <p>La régularité des séances, les rencontres ponctuelles avec les parents, une écoute attentive de
+                    ceux-ci, un climat de confiance, de sécurité affective et de liberté d’expression orale nous
+                    semblent indispensable pour une aide efficace.
+                </p>
+            </div>
+            <div id="tab-4" class="tab-content">
+
+
+                <p>Elle s’adresse aux enfants présentant des troubles de l’expressivité motrice, ces troubles affectant
+                    leur maturation tonico-motrice, psycho-affective ou symbolique.
+                </p>
+                <p> La thérapie psychomotrice est indiquée lorsque les enfants sont envahis par leurs fantasmes
+                    archaïques : ce sont des enfants pulsionnels ou au contraire inhibés, qui ne s’ouvrent pas à la
+                    communication, montrent une insécurité affective, ont un imaginaire débordant ou au contraire figé.
+                    Dans ces différents cas, une aide peut être nécessaire.
+                </p>
+
+
+                <p>Le psychomotricien s’engage lors d’une première rencontre dans une relation tonico-émotionnelle afin
+                    de permettre à l’enfant en difficulté de se dire pleinement par la voie motrice et symbolique.
+                    L’observation de sa manière d’être nous aide à comprendre la dynamique profonde de l’enfant.
+                </p>
+                <p>L'écoute des parents, des enseignants ou des autres intervenants viendra compléter cette première
+                    observation. Quand la demande sera précisée une aide pourra alors être mise en place.
+                    Un cadre clair, des séances à un rythme régulier ainsi que des rencontres ponctuelles avec les
+                    parents seront nécessaires.
+                </p>
+                <p>Le thérapeute s’implique dans une relation interactive avec l’enfant.
+                    Sa préoccupation première est d’accueillir, sans restriction, l’expressivité de l’enfant de la plus
+                    retenue à la plus débordante.
+                    L’objectif est de réintroduire une dynamique de plaisir et d' instaurer des jeux de réassurance de
+                    manière à pouvoir dépasser les angoisses archaïques liées aux premières relations.
+                </p>
+
+
+                <p> La séance est structurée en deux temps, le premier réservé à l’expressivité motrice et le second à
+                    des activités de représentation (dessin, modelage, construction…). La thérapie psychomotrice aide
+                    l’enfant à s’épanouir et à se réapproprier sa propre histoire.
+                </p>
+
+
+            </div>
+
+        </div><!-- container -->
     </div>
     <div class="push"></div>
     <footer class="footer center-block">
